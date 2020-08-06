@@ -1,0 +1,15 @@
+body {
+    background-color: beige;
+    color: brown;
+}
+
+h1 {
+    background-color: aliceblue;
+    color: black;
+    font: 50px;
+}
+
+p {
+    background-color: aqua;
+    color: black;
+}

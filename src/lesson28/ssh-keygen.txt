@@ -1,0 +1,41 @@
+$ ssh-keygen -t rsa -b 4096 -C kravtcovaneonila@gmail.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/1/.ssh/id_rsa):
+Created directory '/c/Users/1/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/1/.ssh/id_rsa
+Your public key has been saved in /c/Users/1/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:r+trpvmTI2caTlJAChivwUTeLQcWGIEO8UERNrqzx1M kravtcovaneonila@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|BO@*o            |
+|BBo=o            |
+|=o+o.o           |
+| =  o.           |
+|+   E . S        |
+| + . .   .       |
+|. + . o  ..      |
+| . . +.oO.       |
+|      =@*=       |
++----[SHA256]-----+
+1@1-?? MINGW64 ~
+$ cd .ssh
+1@1-?? MINGW64 ~/.ssh
+$
+1@1-?? MINGW64 ~/.ssh
+$ ls -la
+total 20
+drwxr-xr-x 1 1 197121    0 авг  3 08:06 ./
+drwxr-xr-x 1 1 197121    0 авг  3 08:04 ../
+-rw-r--r-- 1 1 197121 3389 авг  3 08:06 id_rsa
+-rw-r--r-- 1 1 197121  752 авг  3 08:06 id_rsa.pub
+
+1@1-?? MINGW64 ~/.ssh
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCc5VmVAM611yV75tgeUu5Dqe6aJG9Cuqn+MoQwK2rjvHPywTlLMYEP0R/0l0BFAIKJNzfq9P6SuUSIphTN1R0NU93AGcNoOAL4J66P1eK8eO+tzYU8KxZ0u8mnuEzTCAuoMgzkSdAItohDG/Fz2EH+4aoVZvkEvBa35DFGhz6TKZzgibWRrw7OLH4iGi299ydgiKeBiAjtqpli5Hxj1uR1Cu543esbThmW60X/PksMAorOOi7U7dJKXZBY5RVs1nKpkrflRIHInS3cHVdrY7Q8n+ywB2f2xBY/4W6BqdsVidSDHkve144K5Jyt+J+MocDkd3sckaMBMXZU4xtOtXPIXpEq+sJxrL8SsybHt5dr77kR4YLHLnzQ8ZUuS/6T1GXfAMU4GgrjLyPzIuxnC1Kj6awgXBYu+x9z104+sl0Dmras0J3eUSuL7TaZGV7vPjVwQHh7k6f4qkmNrCpeypjcBcbxccjMTBDQrVQo+a0eJ3MJRA/GqQDs3tAgCRQIgBRiC2avZvjXWEP8PkwRSBqGYeKh6OqSdlHhOm6sl3m8znrg2D2opsDcz9lcTmuU4MZ2E/q0Ak75t7PdfIURiKnaepZNfLxNDOODEPuIFhOwIDZ5nxGZaw2hTshhmV3UqYPgGN3R57xc/mKxE8WxRGYnRecPw9kx34qAcR3eexLWuw== kravtcovaneonila@gmail.com
+myNewKey
+60:54:f0:00:f9:65:1b:e3:2b:6c:b2:1a:66:b4:34:f6
+Added on 3 Aug 2020
+Never used — Read/write
