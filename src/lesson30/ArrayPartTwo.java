@@ -4,18 +4,12 @@ public class ArrayPartTwo {
     public static void main(String[] args) {
         int[] a1 = new int[(int) (Math.random() * 100)];//массив с изменяющейся длиной
         System.out.println("Количество элементов массива а1: " + a1.length);//узнаем длину массива
-        fillingArray(a1);
+        fillArray(a1);
         System.out.println();
         myArrayPrint(arrayTryAndCry(10));
     }
 
-    public static void fillingArray(int[] inputArray) {
-/*        int sum = 0;
-        for (int element : inputArray) {
-            element = (int) (Math.random() * 100);
-            System.out.print(element + " ");
-            sum = sum + element;
-        }*/
+    public static void fillArray(int[] inputArray) {
       for (int i = 0; i < inputArray.length; i++) {
             inputArray[i] = (int) (Math.random() * 100);
             System.out.print(inputArray[i] + " ");

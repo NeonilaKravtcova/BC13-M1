@@ -1,6 +1,6 @@
 package lesson31;
 
-public class Exercises05 {
+public class Exercises05_08 {
     public static void main(String[] args) {
         //Exercise 05
         int[] a1 = new int[]{4, 5};//→ true
@@ -19,30 +19,37 @@ public class Exercises05 {
         fix23(b1);// → [1, 2, 0]
         fix23(b2);// → [2, 0, 5]
         fix23(b3);// → [1, 2, 1]
+        System.out.println();
 
         //Exercise 07
         int[] c1 = new int[]{1, 2, 3, 4};
         int[] c2 = new int[]{7, 1, 2, 3, 4, 9};
-        int[] c3 = new int[]{1, 2, 3};
+        int[] c3 = new int[]{1, 2};
 
         midThree(c1, 2); //→ [2, 3]
-        midThree(c2, 2); //→ [7, 5]
+        midThree(c2, 2); //→ [2, 3]
         midThree(c3, 2); //→ [1, 2]
+        System.out.println();
+
+        //Exercise 08
+        int[] d1 = new int[]{1, 2, 3, 4, 5};
+        int[] d2 = new int[]{8, 6, 7, 5, 3, 0, 9};
+        int[] d3 = new int[]{1, 2, 3};
+
+        midThree(d1, 3); //→ [2, 3, 4]
+        midThree(d2, 3); //→ [7, 5, 3]
+        midThree(d3, 3); //→ [1, 2, 3]
     }
 
     public static void midThree(int[] a, int n){
-        int m = (a.length - 2) / 2;
-        int[] result = new int[]{};
-        for (int i = 0; i < 2; i++) {
-            result[i] = a[m];
-            m = m + 1;
+        int m = (a.length - n) / 2;
+        int[] result = new int[n];
+            for (int i = 0; i < n; i++) {
+               result[i] = a[m];
+                System.out.print(result[i] + " ");
+               m++;
         }
-        for (int i = m; i < a.length - m; i++) {
-            for (int j = 0; j < 3; j++) {
-               result[j] =  
-            }
-
-        }
+        System.out.println();
     }
 
     public static void fix23(int[] a){
