@@ -40,15 +40,14 @@ public class Exercises25_27 {
     }
 
     public static int[] front11(int[] a, int[] b) {
-        int[] output = new int[0];
+        int[] output;
         if (a.length == 0 && b.length == 0) {
             output = a;
-        }
-        if (a.length > 0 && b.length > 0) {
+        } else if (a.length > 0 && b.length > 0) {
             output = new int[]{a[0], b[0]};
         } else if (a.length > 0) {
             output = new int[]{a[0]};
-        } else if (b.length > 0) {
+        } else {
             output = new int[]{b[0]};
         }
         return output;
