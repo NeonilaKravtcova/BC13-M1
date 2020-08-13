@@ -18,7 +18,8 @@ public class TwoDimensionalArray5x6 {
     }
 
     public static void printRowArray(int[][] a, int row){
-        for (int i = 0; i < a.length; i++) {
+        System.out.println();
+        for (int i = 0; i <= a.length; i++) {
             System.out.print(a[row][i] + " ");
         }
     }
