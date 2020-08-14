@@ -1,10 +1,12 @@
 package lesson35;
 
+import java.util.Arrays;
+
 public class HW36_CharArray {
     public static void main(String[] args) {
-        System.out.println(arrayCyrillic());
+        System.out.println(Arrays.toString(arrayCyrillic()));
         System.out.println();
-        System.out.println(cyrillicRandom(arrayCyrillic()));
+        System.out.println(Arrays.toString(cyrillicRandom(arrayCyrillic())));
     }
 
     public static char[] arrayCyrillic() {
