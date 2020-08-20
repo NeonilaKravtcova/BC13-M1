@@ -46,7 +46,7 @@ public class HW38_Exercise_01_02 {
         int count = 0;
         for (int i : a) {
             if (i % 2 == 0) {
-                count++;
+                count++;//можно написать ++count
             }
         }
         return count;
